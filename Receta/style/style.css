@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dekko&display=swap');
+
+
+body{
+background-image: url('../img/cssPink.gif');
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Manrope', sans-serif;
+}
+
+#rico{
+text-align: center;
+color: white;
+text-shadow: 20px;
+font-size: 60px;
+}
+
+#logo{
+color: white;
+}
+
+#explicacion{
+text-align: center;
+font-size: 40px;
+
+}
+
+.titulos{
+font-family: 'Allan', cursive;
+
+
+}
+.relleno{
+font-weight: lighter;
+font-size: medium;
+}
+
+h1{
+background-color: rgb(250, 104, 177, 1);
+font-family: 'Dekko', cursive;
+}
+
+h2{
+background-color: rgba(247, 141, 194, 1);    
+}
+
+h3, h4{
+background-color: rgb(236, 154, 195);
+}
+
+ul, ol{
+background-color: rgb(252, 202, 234);
+padding: 30px;
+}
+
+div{
+display: grid;
+justify-content: center;    
+}
+
+.instagram{
+color: rgb(223, 45, 230);
+font-size: 40px;
+}
+
+#imagen{
+border: 3px solid salmon;
+}
+
+#corazon{
+color: red;
+}
+
+#redes{
+display:flex;
+flex-direction: row;
+justify-content: flex-start;
+background-color: rgb(252, 202, 234);
+}
+
+#ins{
+padding-right: 15px;
+}
+
+#twt{
+padding-left: 15px;
+padding-right: 15px;
+}
+
+#re{
+padding-left: 15px;    
+}
